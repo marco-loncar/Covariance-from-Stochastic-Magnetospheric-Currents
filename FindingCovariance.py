@@ -174,7 +174,7 @@ def d2Y_drdR(r, R, Leg):
     OuterCont *= -48 * np.pi * (RO**3) / (alpha**2)
     MidCont *= -12 * np.pi * (R**2) / (r * alpha**2)
     
-    # Putting it all together
+    # Add results together
     result = InnerCont + OuterCont + MidCont
     return result
 
