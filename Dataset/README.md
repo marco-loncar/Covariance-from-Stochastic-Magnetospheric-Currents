@@ -4,7 +4,7 @@ As described in the higher level README file, this folder contains processed Jun
 
 * *Decimal day (\#\#\#\#)* 
 
-> Time of measurement given in decimal days of the year \#\#\#\#
+> Instantaneous time of downsampled measurement given in decimal days of the year \#\#\#\#
 
 * *r / R\_J*
 
