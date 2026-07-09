@@ -15,9 +15,10 @@ The contents of this repository are:
     * Spherical component data $B_r$, $B_{\theta}$, $B_{\varphi}$
     * Up to orbit 70 of Juno, omitting orbits 2 and 19
     * Restricted to within $2R_J$ of Jupiter's centre
+    * Downsampled to $30s$ intervals from the highest rate MAG data available on the PDS (entitled `fgm_jno_l3_YYYYDDDpc_pj##_v02.sts`)
     * Despiked and offset at dynamic range changes (described in Loncar & Jackson, 2026)
-    * Downsampled to $30s$ intervals
     * Organised into columns of measurement: time, position, value, uncertainty and instrument range
+    * These datasets have also undergone analysis to ensure no Juno spin-related, periodic signals are present that could influence subsequent field model construction
 
 * Program entitled **FindingCovariance.py** 
 
